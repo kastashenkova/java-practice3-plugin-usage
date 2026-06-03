@@ -1,3 +1,3 @@
 rootProject.name = "TcpProject"
 
-includeBuild("../network-plugin")
+includeBuild("network-plugin")

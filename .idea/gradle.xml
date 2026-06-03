@@ -6,9 +6,9 @@
         <compositeConfiguration>
           <compositeBuild compositeDefinitionSource="SCRIPT">
             <builds>
-              <build path="$PROJECT_DIR$/../network-plugin" name="network-plugin">
+              <build path="$PROJECT_DIR$/network-plugin" name="network-plugin">
                 <projects>
-                  <project path="$PROJECT_DIR$/../network-plugin" />
+                  <project path="$PROJECT_DIR$/network-plugin" />
                 </projects>
               </build>
             </builds>
@@ -18,7 +18,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/../network-plugin" />
+            <option value="$PROJECT_DIR$/network-plugin" />
           </set>
         </option>
         <option name="myGradleHome" value="" />
